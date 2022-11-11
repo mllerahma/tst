@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title> TP - FORMS</Title>
+    </head>
+    <body style="background-color:beige">
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+            <section>
+                <p font-size="20"> Rahma </p>
+               <h1 style="color: red">Formulaire de demandes</h1>
+
+
+                <form>
+                    <strong><label for="Name">Nom*:</label> </strong>
+                    <input type="texte" autofocus placeholder="Saisir votre nom" required>
+
+                    <br>
+                    <br>
+ 
+                    <strong><label for="Prenom"> Prenom*:</label></strong>
+                    <input type="text" placeholder="Saisir votre prénom">
+
+                    <br>
+                    <br>
+
+                    <strong><label for="Date de naissance"> Date de naissance</label></strong>
+                    <input type="date" placeholder="Saisir votre date de naissance">
+
+                    <br>
+                    <br>
+
+                   <Strong><label for="Sex" Name="Sex">Sex </label><br> </strong>
+
+                    <label for="Sex" Name="Sex">F</label> 
+                    <input type="Radio" name="Sexvalue"> 
+
+                    <label for="Sex" Name="Sex">M</label>
+                    <input type="Radio" name="Sexvalue">
+
+                    <br>
+                    <br>
+
+                    <strong><label for="Adresse"> Adresse</label> </strong>
+                    <textarea></textarea>
+                    <br>
+                    <strong><label for="Pays">Pays</label> </strong>
+                    <input type="texte" disabled placeholder="Maroc">
+
+                    <br>
+                    <br>
+
+                    <strong><label for="tel"> Inserer votre numero de téléphone</label></strong>
+                    <input type="tel" id="tel" name="Tel" maxlength="10" required>
+                    <small> Format: 06 ** ** ** ** </small>
+
+                    <br>
+                    <br>
+                
+                    <strong><label for="email" name="email"> E-mail</label></strong>
+                    <input type="email" placeholder="Entrer votre e-mail" name="email" required>
+                
+
+                    <br>
+                    <br>
+
+                   <strong><label for="Loisir" Name="Loisir"> Loisir:</label><br></Strong>
+
+                   <label for="Loisir" Name="loisir">Natation</label>
+                   <input type="checkbox"> <br>
+                   <label for="Loisir" Name="Loisir"> Football</label>
+                   <input type="checkbox"> <br>
+                   <label for="Loisir" Name="Loisir">Autre</label>
+                   <input type="text">
+                   
+                   <br>
+                   <br>
+
+                   <Strong><label for="inserer une Photo" Name="Photo">Inserer votre photo</label></Strong> <br>
+                   <input type="image" src="exemple-photo.webp"width="500" height="300" alt="Exemple de photo">
+                   <small>Exemple de photo</small>
+                   <br>
+                   <input type="file">
+
+                   <br>
+                   <Br>
+
+                    <strong><label for="Telecharger" name="CIN"> Telecharger votre CIN </label></strong>
+                    <input type="File">
+
+                    <br>
+                   <Br>
+                    <label for="reset" name="Reset"> Try again</label>
+                    <input type="reset">
+
+
+                    <label for="submit" name="Envoyer"> Envoyer</label>
+                    <input type="submit" value="submit"> 
+
+                </form>
+            </section>
+        </main>
+    </body>
